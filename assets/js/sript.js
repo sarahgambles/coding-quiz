@@ -31,4 +31,13 @@ function countdown() {
             clearInterval(timeInterval);
             displayMessage();
         }
+
+         // add local storage to save initials and score
+ 
+       localStorage.setItem("initials", initials);
+       localStorage.setItem("score", score);
+       renderLastRegistered();
+   }, 1000);
+}
+
  
