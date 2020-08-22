@@ -57,5 +57,30 @@ var askQuestion () {
    }
 }
 
+function setCounterText() {
+    countEl.textContent = count;
+ }
+  
+ incrementEl.addEventListener("click", function() {
+    count++;
+    setCounterText();
+ });
+  
+ decrementEl.addEventListener("click", function() {
+    if(count > 0) {
+        count--;
+        setCounterText();
+    }
+ });
+  
+ // when i answer a question incorrectly, time is subtracted from the clock
+  
+ // when all questions, are answered or the timer reaches 0, the game is over
+ // condition
+  
+ // when the game is over then i can save my initials and score
+  
+ // listener
+ 
 
  
