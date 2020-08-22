@@ -40,4 +40,22 @@ function countdown() {
    }, 1000);
 }
 
+// presented with a question
+ 
+// when i answer a question, i am then presented with another question
+ 
+var questions = []
+ 
+var askQuestion () {
+   (questions[i]) var askQuestion === TRUE ||
+   if (var === TRUE) {
+       alert("You are correct! Great job!");
+   }
+   else {
+       alert("That is incorrect! Keep learning!");
+       )
+   }
+}
+
+
  
